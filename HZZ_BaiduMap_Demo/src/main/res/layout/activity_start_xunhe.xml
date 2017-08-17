@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/top_title_strues"
+    android:orientation="vertical">
+
+    <include layout="@layout/activity_title_toolbar" />
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical" >-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/ll"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical" >-->
+        <!--</LinearLayout>-->
+
+        <!--<include layout="@layout/__picker_activity_title_toolbar" />-->
+    <!--</LinearLayout>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <include layout="@layout/navigation_content"></include>
+    </RelativeLayout>
+
+    <com.roch.hzz_baidumap_demo.view.MyLazyViewpager
+        android:id="@+id/vp_home"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        android:visibility="gone"/>
+
+    <RadioGroup
+        android:id="@+id/rg_home"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@drawable/bottom_tab_bg"
+        android:paddingTop="2dp" >
+
+        <RadioButton
+            android:id="@+id/rb_shouye"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/icon_function"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/rb_xinxi_shangbao"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/icon_newscenter"
+            android:text="信息上报" />
+
+        <RadioButton
+            android:id="@+id/rb_daiban_shixiang"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/icon_smartservice"
+            android:text="待办事项" />
+
+    </RadioGroup>
+
+</LinearLayout>

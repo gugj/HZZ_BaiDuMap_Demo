@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              style="@style/top_title_strues">
+
+    <include layout="@layout/activity_title_toolbar"></include>
+
+    <TextView
+        android:id="@+id/tv_daiban_neirong"
+        style="@style/text_style"
+        android:paddingLeft="@dimen/margin_15"
+        android:paddingTop="@dimen/margin_10"
+        android:text="标题：有污染接报需要处理"/>
+
+</LinearLayout>

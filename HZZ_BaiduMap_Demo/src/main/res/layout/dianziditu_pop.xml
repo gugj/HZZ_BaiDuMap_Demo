@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popupmap"
+    android:orientation="vertical"
+     >
+
+    <LinearLayout
+        style="@style/wr_wr_ml_mt_mr_5"
+        > 
+        <TextView
+            android:id="@+id/tv_jiancedian_name"
+            style="@style/text_style"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:text="监测点名称："
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tv_jiancedian_name_value"
+            style="@style/text_style"
+            android:ellipsize="end"
+            android:text="2"
+            android:textSize="14sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        style="@style/wr_wr_ml_mt_mr_5"
+        > 
+        <TextView
+            android:id="@+id/tv_jiancedian_type"
+            style="@style/text_style"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:text="监测点类型："
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tv_jiancedian_type_value"
+            style="@style/text_style"
+            android:ellipsize="end"
+            android:text="22"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/wr_wr_ml_mt_mr_5"
+        >
+        <TextView
+            android:id="@+id/tv_xunheshijian"
+            style="@style/text_style"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:text="巡河时间："
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tv_xunheshijian_value"
+            style="@style/text_style"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="fgsgsgfsgfsgfsf"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_xiangxi"
+        style="@style/wr_wr_ml_mt_mr_5"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:text="详细>>"
+        android:textColor="@color/bule_155bbb"
+        android:textSize="14sp" />
+
+</LinearLayout>
+

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray" >
+        <!-- @drawable/bg_top_bar -->
+
+        <TextView
+            android:id="@+id/tv_back"
+            style="@style/title_back"
+            android:visibility="invisible"/>
+
+        <!-- android:background="@drawable/edittext_selector" -->
+        <RelativeLayout
+            style="@style/edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+             >
+
+            <ImageView
+                android:id="@+id/im"
+                style="@style/text_style"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:contentDescription="账号："
+                android:src="@drawable/search"
+                />
+
+            <EditText
+                android:id="@+id/custom_auto_complete_tv"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/im"
+                android:background="@null"
+                android:hint="请输入搜索内容"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/custom_auto_complete_clear_text"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:contentDescription="image"
+                android:src="@android:drawable/ic_notification_clear_all" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:contentDescription="image"
+            android:src="@drawable/search_logo"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/custom_auto_complete_listview"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/white"
+         android:visibility="gone"/>
+
+</LinearLayout>

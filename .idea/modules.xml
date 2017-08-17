@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BaiduLoc_AndroidSDK_v7.1_Demo/BaiduLoc_AndroidSDK_v7.1_Demo.iml" filepath="$PROJECT_DIR$/BaiduLoc_AndroidSDK_v7.1_Demo/BaiduLoc_AndroidSDK_v7.1_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BaiduMap_AndroidSDK_v4.3.1_Demo/BaiduMap_AndroidSDK_v4.3.1_Demo.iml" filepath="$PROJECT_DIR$/BaiduMap_AndroidSDK_v4.3.1_Demo/BaiduMap_AndroidSDK_v4.3.1_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HZZ_BaiDuMap_Demo.iml" filepath="$PROJECT_DIR$/HZZ_BaiDuMap_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HZZ_BaiduMap_Demo/HZZ_BaiduMap_Demo.iml" filepath="$PROJECT_DIR$/HZZ_BaiduMap_Demo/HZZ_BaiduMap_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Luban-master/Luban-master.iml" filepath="$PROJECT_DIR$/Luban-master/Luban-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoPicker/PhotoPicker.iml" filepath="$PROJECT_DIR$/PhotoPicker/PhotoPicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gridview_master_listview/gridview_master_listview.iml" filepath="$PROJECT_DIR$/gridview_master_listview/gridview_master_listview.iml" />
+    </modules>
+  </component>
+</project>

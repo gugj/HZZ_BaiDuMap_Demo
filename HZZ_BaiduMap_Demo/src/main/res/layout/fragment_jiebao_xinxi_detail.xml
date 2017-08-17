@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/top_title_strues"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lv_xinxi_hecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/driver"
+        android:dividerHeight="@dimen/layout_0.5" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/tv_xiancheng_zhaopian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="现场图片："
+        android:textColor="@color/black"
+        android:textSize="@dimen/textSize_15"
+        android:layout_marginLeft="@dimen/margin_15"
+        android:layout_marginTop="@dimen/margin_5"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="@dimen/margin_15">
+        <GridView
+            android:id="@+id/gv_jiebao"
+            style="@style/gridview_style"
+            android:horizontalSpacing="@dimen/layout_0.5"
+            android:listSelector="#00000000"
+            android:verticalSpacing="10dp"
+            />
+        <!-- android:background="@drawable/edittext_bg" -->
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 信息核查tab页：接报信息-确认信息 -->
+    <string-array name="tab_xinxihecha_detail_title">
+        <item>接报信息</item>
+        <item>确认信息</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/top_title_strues"
+                android:orientation="vertical">
+
+    <include layout="@layout/activity_title_toolbar"></include>
+
+    <TextView
+        android:id="@+id/tv_cur_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSize_16sp"
+        android:textColor="@color/black"
+        android:paddingLeft="@dimen/margin_10"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:text="当前定位位置："/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/bmapView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="true" />
+
+        <TextView
+            android:id="@+id/tv_xxsb"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:background="@color/green"
+            android:textSize="@dimen/textSize_16sp"
+            android:gravity="center"
+            android:text="信息上报"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+

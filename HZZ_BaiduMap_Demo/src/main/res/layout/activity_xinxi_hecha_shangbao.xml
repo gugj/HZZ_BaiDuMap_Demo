@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_bg"
+    style="@style/top_title_strues"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include layout="@layout/activity_title_toolbar"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <EditText
+                android:id="@+id/et_xxhc_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/transparent"
+                android:gravity="left"
+                android:hint="在这里添加描述信息..."
+                android:textSize="@dimen/textSize_14"
+                android:padding="10dp"/>
+        </LinearLayout>
+        <!-- android:background="@drawable/bg_edittext" -->
+
+    <com.roch.hzz_baidumap_demo.view.MaxHeightView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mhv_HeightDimen="@dimen/layout_250">
+        <GridView
+            android:id="@+id/gv_photo"
+            style="@style/gridview_style_4"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_3"
+            android:layout_marginTop="20dp"
+            android:horizontalSpacing="@dimen/layout_0.5"
+            android:verticalSpacing="@dimen/layout_0.5"/>
+
+    </com.roch.hzz_baidumap_demo.view.MaxHeightView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <TextView
+                android:id="@+id/tv_xxhc_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ico_address"
+                android:drawablePadding="8dp"
+                android:singleLine="true"
+                android:text="郑州市经三路北26"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <!--  android:drawableLeft="@drawable/ico_address" -->
+    </LinearLayout>
+
+
+</LinearLayout>

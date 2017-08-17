@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              style="@style/top_title_strues">
+
+    <include layout="@layout/activity_title_toolbar"></include>
+
+    <ListView
+        android:id="@+id/lv_xinxi_hecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/driver"
+        android:dividerHeight="@dimen/layout_0.5" >
+    </ListView>
+
+</LinearLayout>

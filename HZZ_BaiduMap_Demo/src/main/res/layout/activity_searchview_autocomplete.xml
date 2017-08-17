@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/top_title_strues"
+              android:background="@color/gray"
+              android:gravity="center"
+              android:orientation="vertical" >
+
+    <!-- 提示 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <!--<LinearLayout-->
+            <!--style="@style/edittext_style"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center_vertical" >-->
+
+            <!--<TextView-->
+                <!--style="@style/text_style"-->
+                <!--android:text="账号:"-->
+                <!--android:textColor="@color/gray_878787" />-->
+
+            <!--<com.roch.hzz_baidumap_demo.view.AutoClearSearchView-->
+                <!--android:id="@+id/edt_username"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@null"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:text="admin" />-->
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.roch.hzz_baidumap_demo.view.AutoClearSearchView
+                android:id="@+id/edt_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="admin" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                style="@style/text_style"
+                android:text="密码:"
+                android:textColor="@color/gray_878787" />
+
+            <com.roch.hzz_baidumap_demo.view.ClearEditText
+                android:id="@+id/edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:text="666666" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/tv_server"
+                style="@style/title_text"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:visibility="invisible"
+                android:text="服务器配置" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_button_selector"
+        android:text="登陆"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+</LinearLayout>

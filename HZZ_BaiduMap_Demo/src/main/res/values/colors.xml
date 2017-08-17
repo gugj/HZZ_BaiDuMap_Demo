@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000000</color>
+    <color name="gray">#CFCFCF</color>
+    <color name="gray_light_bg">#F2F2F2</color>
+    <color name="gray_878787">#878787</color>
+    <color name="white">#FFFFFF</color>
+    <color name="toast_bg">#4E8DEE</color>
+    <color name="green">#00cc66</color>
+    <color name="xunhe_bg">#458DEF</color>
+
+    <!-- 主题色 -->
+    <!--<color name="color_145bba">#145bba</color>-->
+    <color name="color_145bba">#11A0EF</color>
+    <!-- 通知栏颜色 -->
+    <!--<color name="bule_155bbb">#155bbb</color>-->
+    <color name="bule_155bbb">#11A0EF</color>
+
+    <!-- 以前的 -->
+    <color name="enterFalse">#4C9AFA</color>
+    <color name="enterTrue">#3987E6</color>
+
+    <!-- 新闻客户端用的颜色 -->
+    <color name="black_overlay">#66000000</color>
+    <color name="gray_background">#ffececec</color>
+    <color name="red">#E51A18</color>
+    <color name="line_color">#523E2E</color>
+    <color name="search_tab_nomarl">#363636</color>
+    <color name="search_tab_select">#E82926</color>
+    <color name="menu_item_text_color">#E60200</color>
+    <color name="news_item_has_read_textcolor">#828282</color>
+    <color name="news_item_no_read_textcolor">#363636</color>
+
+    <!-- 灰白的 -->
+    <color name="ashen">#f5f5f5</color>
+    <color name="orange_f7cc79">#f7cc79</color>
+    <color name="xunhe_layout_bg">#EBEBEB</color>
+    <color name="gray_line">#e8e8e8</color>
+    <color name="gainsboro">#dcdcdc</color>
+    <color name="albumback">#E1E0DE</color>
+    <color name="plugin_camera_black">#000000</color>
+    <color name="color_999999">#999999</color>
+    <color name="green_00cc99">#00cc99</color>
+
+    <!-- dialog 蓝色按钮字体 -->
+    <color name="dialog_bule">#0079ff</color>
+    <color name="divider">#e0e0e0</color>
+    <color name="blue_light">#5675de</color>
+
+    <color name="login_hint">#C1C1C1</color>
+    <color name="color_00afe4">#00afe4</color>
+</resources>

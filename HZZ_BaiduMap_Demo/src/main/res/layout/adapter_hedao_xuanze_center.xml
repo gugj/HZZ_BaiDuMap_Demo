@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_hedao_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+
+        android:textColor="@color/dialog_bule"
+        android:textSize="@dimen/textSize_15"/>
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/rl_guanxia_hedao"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/layout_45"-->
+        <!--android:background="@color/white">-->
+        <!--<TextView-->
+            <!--android:id="@+id/tv_hedao_name"-->
+            <!--style="@style/text_style"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="@dimen/margin_15"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:text="河道名称"/>-->
+
+        <!--<TextView-->
+            <!--style="@style/text_style"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="@dimen/margin_20"-->
+            <!--android:layout_marginRight="@dimen/margin_15"-->
+            <!--android:layout_toRightOf="@id/tv_key"-->
+            <!--android:gravity="right"-->
+            <!--android:textColor="@color/gray_b3b3b3"-->
+            <!--android:drawableRight="@drawable/jinru"/>-->
+    <!--</RelativeLayout>-->
+
+</LinearLayout>

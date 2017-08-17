@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.roch.hzz_baidumap_demo.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSize_16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/dimen_15dp"
+        android:text="以下是用百度地图演示巡河轨迹"/>
+
+    <!--<com.baidu.mapapi.map.MapView-->
+        <!--android:id="@id/mapView"-->
+        <!--android:layout_margin="@dimen/dimen_15dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+    <!--</com.baidu.mapapi.map.MapView>-->
+
+</RelativeLayout>

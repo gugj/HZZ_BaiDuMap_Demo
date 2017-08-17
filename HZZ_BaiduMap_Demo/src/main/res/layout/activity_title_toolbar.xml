@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/ll_top_toolbar_container">
+
+    <LinearLayout
+        android:id="@+id/ll_top_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <include layout="@layout/activity_top_toolbar" />
+</LinearLayout>
+
+<!--<android.support.v7.widget.Toolbar-->
+       <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+       <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+       <!--android:id="@+id/toolbar"-->
+       <!--android:layout_width="match_parent"-->
+       <!--android:layout_height="45dp"-->
+       <!--android:background="?attr/colorPrimary"-->
+       <!--app:titleTextAppearance="@style/ToolbarTitle" >-->
+      <!--&lt;!&ndash; android:layout_height="?attr/actionBarSize" &ndash;&gt;-->
+
+    <!--<TextView-->
+        <!--android:id="@id/tv_back"-->
+        <!--style="@style/text_style"-->
+        <!--android:layout_gravity="left|center_vertical"-->
+        <!--android:layout_marginRight="@dimen/margin_10"-->
+        <!--android:drawableLeft="@drawable/btn_back"-->
+        <!--android:textSize="@dimen/textSize_16"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:visibility="gone"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_title"-->
+        <!--style="@style/title_text"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:text="首页菜单"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_sure"-->
+        <!--style="@style/text_style"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_gravity="right|center_vertical"-->
+        <!--android:layout_marginRight="@dimen/margin_20"-->
+        <!--android:layout_marginLeft="@dimen/margin_20"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:text="查询"-->
+        <!--android:visibility="gone"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_filter"-->
+        <!--style="@style/text_style"-->
+        <!--android:layout_gravity="right|center_horizontal"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:drawableRight="@drawable/search_logo"-->
+        <!--android:visibility="gone"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_jiahao"-->
+        <!--style="@style/text_style"-->
+        <!--android:layout_gravity="right|center_horizontal"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:drawableRight="@drawable/jiahao"-->
+        <!--android:layout_marginRight="@dimen/margin_20"-->
+        <!--android:visibility="gone"/>-->
+
+<!--</android.support.v7.widget.Toolbar>-->

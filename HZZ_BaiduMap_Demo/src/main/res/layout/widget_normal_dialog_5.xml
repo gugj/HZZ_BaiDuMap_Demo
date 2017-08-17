@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/product_search_dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:textColor="@color/black"
+            android:text="提示"
+            android:textSize="15sp" />
+        <!-- android:textColor="@color/dialog_bule" -->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:contentDescription="@string/hello_world"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/ic_dialog_split_line"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp" >
+
+            <TextView
+                android:id="@+id/normal_dialog_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_dialog_bottom_btn_bg"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/normal_dialog_cancel"
+                style="@style/dialog_btn_style"
+                android:textSize="@dimen/textSize_15"
+                android:layout_margin="@dimen/margin_3"
+                android:text="取消" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_dialog_upright_line_bg"
+                android:contentDescription="@string/hello_world" >
+            </ImageView>
+
+            <Button
+                android:id="@+id/normal_dialog_done"
+                android:layout_margin="@dimen/margin_3"
+                android:textSize="@dimen/textSize_15"
+                android:textColor="@color/color_145bba"
+                style="@style/dialog_btn_style"
+                android:text="设置" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

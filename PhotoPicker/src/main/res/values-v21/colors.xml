@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="__picker_common_primary">#e1e1e1</color>
+
+    <!-- 主题色 -->
+    <!--<color name="color_145bba">#145bba</color>-->
+    <color name="__picker_color_145bba">#11A0EF</color>
+
+</resources>

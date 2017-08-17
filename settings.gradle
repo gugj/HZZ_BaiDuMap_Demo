@@ -1,0 +1,2 @@
+include ':app', ':HZZ_BaiduMap_Demo', 'BaiduMap_AndroidSDK_v4.3.1_Demo', 'BaiduLoc_AndroidSDK_v7.1_Demo', ':gridview_master_listview', 'PhotoPicker', 'Luban-master'
+//include ':administrator'  , ':examples:DaoExample'
